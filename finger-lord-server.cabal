@@ -24,6 +24,8 @@ library
                      Handler.Home
                      Handler.Comment
                      Handler.Profile
+                     Handler.Passage
+                     Handler.Passages
 
     if flag(dev) || flag(library-only)
         cpp-options:   -DDEVELOPMENT
@@ -90,6 +92,7 @@ library
                  , time
                  , case-insensitive
                  , wai
+                 , interpolate
 
 executable         finger-lord-server
     if flag(library-only)
