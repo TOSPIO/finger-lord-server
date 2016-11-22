@@ -25,6 +25,7 @@ data App = App
     , appConnPool    :: ConnectionPool -- ^ Database connection pool.
     , appHttpManager :: Manager
     , appLogger      :: Logger
+    , flState :: FingerLordState
     }
 
 data MenuItem = MenuItem

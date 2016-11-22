@@ -11,3 +11,4 @@
 /profile ProfileR GET
 /passages/#PassageId PassageR GET POST PUT
 /passages PassagesR GET POST
+/arena ArenaR GET POST

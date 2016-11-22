@@ -1,7 +1,6 @@
 module Handler.Passage where
 
 import Import
-import Data.String.Interpolate
 
 getPassageR :: PassageId -> Handler TypedContent
 getPassageR passageId = selectRep $ do
